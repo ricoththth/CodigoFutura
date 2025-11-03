@@ -4,7 +4,7 @@ import StellarSdk from '@stellar/stellar-sdk';
 const horizonServer = new StellarSdk.Horizon.Server('https://horizon-testnet.stellar.org');
 const networkPassphrase = StellarSdk.Networks.TESTNET;
 
-const SECRET_KEY = 'SDUX7UY7FSHE742RIO65BIDMU2VLAJBEJYQXGBPZM2AVOTZTNORNDCEY';
+const SECRET_KEY = 'SDUX7UXXXXXXXXXXEY';
 const DESTINATION = 'GA74ICXS227XU5SXFTZXQWNHWCTMUBJM2FCFXDAO3V2KTDH4E7WQWSS5';
 
 async function enviarPago(amount, memo = '') {
